@@ -10,7 +10,7 @@ predicting the probability of a carry-basket crash 4 weeks out, walk-forward bac
 shown live as a regime panel at the top of the app. Built with Streamlit, FRED, yfinance,
 and scikit-learn.
 
-[Live on Hugging Face Spaces](#)
+[Live on Streamlit Community Cloud](https://carry-crash-ml.streamlit.app)
 
 ![Screenshot placeholder](docs/screenshot.png)
 
@@ -18,7 +18,7 @@ and scikit-learn.
 
 ```bash
 git clone <this-repo>
-cd carry-trade-screener
+cd carry-crash-ml
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -108,4 +108,4 @@ Cross-pair prices and volatility are derived by triangulation through USD (`LONG
 
 ## Author
 
-[Sharodeep Kuar(https://github.com/sharodeep)
+[Sharodeep Kuar](https://github.com/sharodeep)
