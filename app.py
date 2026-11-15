@@ -137,9 +137,10 @@ if models_available():
     st.plotly_chart(fig_regime, width="stretch")
 
     live_note = "live" if reading.get("live") else "cached (live scoring failed)"
+    training_end = reading.get("training_end_date", "unknown")
     st.caption(
         f"Estimated on a G10 carry basket. As of {reading['as_of_week']} ({live_note}). "
-        f"Model trained through {reading['training_end_date']}."
+        f"Model trained through {training_end}."
     )
 
     if regime == "High":

@@ -28,8 +28,16 @@ load_dotenv()
 def get_fred_client() -> Fred:
     api_key = os.environ.get("FRED_API_KEY")
     if not api_key:
+        try:
+            import streamlit as st
+
+            api_key = st.secrets["fred"]["api_key"]
+        except Exception:
+            api_key = None
+    if not api_key:
         raise RuntimeError(
-            "FRED_API_KEY not set. Add it to .env or export it in your shell."
+            "FRED_API_KEY not set. Add it to .env, export it in your shell, or "
+            "set st.secrets['fred']['api_key']."
         )
     return Fred(api_key=api_key)
 

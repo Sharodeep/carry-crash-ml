@@ -4,6 +4,7 @@
   "logit_prob": 0.2932,
   "percentile_vs_history": 41.0,
   "regime": "Calm",
+  "training_end_date": "2026-10-09",
   "top_drivers": [
     {
       "feature": "vix",

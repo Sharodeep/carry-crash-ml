@@ -164,6 +164,7 @@ def run_current_reading(refresh: bool = False) -> dict:
         "percentile_vs_history": round(percentile_vs_history, 1),
         "regime": regime,
         "top_drivers": top_drivers,
+        "training_end_date": metadata["training_end_date"],
         "input_dates": {k: v.strftime("%Y-%m-%d") for k, v in input_dates.items()},
         "stale_inputs": stale_inputs,
     }
