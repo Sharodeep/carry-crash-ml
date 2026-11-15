@@ -108,4 +108,4 @@ Cross-pair prices and volatility are derived by triangulation through USD (`LONG
 
 ## Author
 
-[Your Name](https://github.com/yourhandle)
+[Sharodeep Kuar(https://github.com/sharodeep)
