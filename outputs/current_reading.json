@@ -1,0 +1,59 @@
+{
+  "as_of_week": "2026-11-06",
+  "gbm_prob": 0.1411,
+  "logit_prob": 0.2932,
+  "percentile_vs_history": 41.0,
+  "regime": "Calm",
+  "top_drivers": [
+    {
+      "feature": "vix",
+      "value": 25.64,
+      "direction": "lowers"
+    },
+    {
+      "feature": "credit_chg4",
+      "value": 0.1100000000000001,
+      "direction": "raises"
+    },
+    {
+      "feature": "credit",
+      "value": 1.56,
+      "direction": "lowers"
+    }
+  ],
+  "input_dates": {
+    "DEXUSEU": "2026-11-06",
+    "DEXUSUK": "2026-11-06",
+    "DEXUSAL": "2026-11-06",
+    "DEXUSNZ": "2026-11-06",
+    "DEXJPUS": "2026-11-06",
+    "DEXSZUS": "2026-11-06",
+    "DEXCAUS": "2026-11-06",
+    "DEXNOUS": "2026-11-06",
+    "DEXSDUS": "2026-11-06",
+    "IR3TIB01USM156N": "2026-09-01",
+    "ECBDFR": "2026-11-11",
+    "IR3TIB01JPM156N": "2026-09-01",
+    "IR3TIB01GBM156N": "2026-09-01",
+    "IR3TIB01CHM156N": "2026-09-01",
+    "IR3TIB01AUM156N": "2026-09-01",
+    "IR3TIB01NZM156N": "2026-09-01",
+    "IR3TIB01CAM156N": "2026-09-01",
+    "IR3TIB01NOM156N": "2026-09-01",
+    "IR3TIB01SEM156N": "2026-09-01",
+    "VIXCLS": "2026-11-10",
+    "BAA10Y": "2026-11-09",
+    "DCOILBRENTEU": "2026-11-03"
+  },
+  "stale_inputs": [
+    "IR3TIB01USM156N",
+    "IR3TIB01JPM156N",
+    "IR3TIB01GBM156N",
+    "IR3TIB01CHM156N",
+    "IR3TIB01AUM156N",
+    "IR3TIB01NZM156N",
+    "IR3TIB01CAM156N",
+    "IR3TIB01NOM156N",
+    "IR3TIB01SEM156N"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "training_end_date": "2026-10-09",
+  "feature_list": [
+    "vix",
+    "vix_chg4",
+    "basket_vol12",
+    "basket_vol_chg4",
+    "basket_mom12",
+    "basket_mom4",
+    "carry_spread",
+    "credit",
+    "credit_chg4",
+    "brent_ret12",
+    "jpy_ret4"
+  ],
+  "primary_model": "logit",
+  "crash_label_threshold": -0.020901808259377264,
+  "signal_threshold_top20pct": {
+    "gbm": 0.431415873463841,
+    "logit": 0.5746056831396618
+  },
+  "historical_oos_logit_prob_percentiles": {
+    "10": 0.06196475343361516,
+    "25": 0.18079746242543215,
+    "50": 0.3454669735217347,
+    "75": 0.45738685709879945,
+    "90": 0.5647713320074801
+  },
+  "historical_oos_gbm_prob_percentiles": {
+    "10": 0.012876527461706493,
+    "25": 0.04362654915660357,
+    "50": 0.14394485993289025,
+    "75": 0.3046042509155899,
+    "90": 0.4784797978221825
+  },
+  "library_versions": {
+    "scikit-learn": "1.9.1",
+    "shap": "0.54.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.1"
+  },
+  "generated_at": "2026-11-13T02:23:42"
+}
